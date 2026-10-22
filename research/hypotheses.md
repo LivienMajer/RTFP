@@ -15,7 +15,9 @@ Jede Person priorisiert ihre Top 3 (Initialen in die Spalte eintragen).
 | B3 | **Verständnis:** Ich verstehe zu viel nicht | |
 | B4 | **Motivation:** Niemand merkt, ob ich es mache | |
 | B5 | **Vergessen:** Ich lese es und weiß es eine Woche später nicht mehr | |
-| B6 | … | |
+| B6 | **Sprache:** Mir fehlen englische Wörter, nicht nur Fachbegriffe (aus [Interview LM](interviews/2026-10-23-lm.md)) | |
+| B7 | **Auslöser:** Ich habe keinen festen Zeitpunkt und keinen klaren Trigger zum Lesen (aus [Interview LM](interviews/2026-10-23-lm.md)) | |
+| B8 | … | |
 
 ## Aktive Hypothesen
 
