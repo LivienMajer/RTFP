@@ -1,0 +1,19 @@
+# Interview: <Kürzel>
+
+- **Datum:** YYYY-MM-DD
+- **Interviewt von:** @...
+- **Semester / Schwerpunkt:** …
+
+## Notizen
+
+…
+
+## Wichtigste Zitate
+
+> „…“
+
+## Erkenntnisse
+
+- Barrieren (B1–B5 aus [`hypotheses.md`](../hypotheses.md) oder neue): …
+- Überraschend: …
+- Neue Ideen / Hypothesen: …

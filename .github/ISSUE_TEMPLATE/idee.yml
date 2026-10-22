@@ -1,0 +1,35 @@
+name: 💡 Idee
+description: Eine Idee, ein Wunsch, ein Gedanke. 2–3 Sätze reichen.
+title: "[Idee] "
+labels: ["idee", "status: neu"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem löst das?
+      description: Was nervt oder fehlt? Gern mit konkreter Situation.
+      placeholder: "Wenn ich morgens Zeit hätte, weiß ich nie, welches Paper ich lesen soll …"
+    validations:
+      required: true
+  - type: textarea
+    id: idee
+    attributes:
+      label: Idee
+      placeholder: "Jede Woche kuratiert eine andere Person eine Liste mit 7 Papern …"
+    validations:
+      required: true
+  - type: dropdown
+    id: barriere
+    attributes:
+      label: Welche Barriere adressiert das?
+      multiple: true
+      options:
+        - "B1 Auswahl"
+        - "B2 Aufwand"
+        - "B3 Verständnis"
+        - "B4 Motivation"
+        - "B5 Vergessen"
+        - "Andere / weiß nicht"
+  - type: markdown
+    attributes:
+      value: "👍 auf dem Issue = „will ich auch“. Priorisiert wird in der Sonntags-Retro."

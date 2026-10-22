@@ -1,0 +1,27 @@
+name: 🧪 Hypothese
+description: Eine Annahme, die wir gezielt testen wollen.
+title: "[Hypothese] "
+labels: ["hypothese", "status: neu"]
+body:
+  - type: textarea
+    id: hypothese
+    attributes:
+      label: Hypothese
+      value: "Wir glauben, dass **…** dazu führt, dass **…**."
+    validations:
+      required: true
+  - type: textarea
+    id: signal
+    attributes:
+      label: Woran merken wir es?
+      description: Messbares Signal oder Metrik
+      placeholder: "Durchschnittliche Streak steigt von 3 auf 7 Tage"
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: Kleinster Test
+      description: Wie testen wir das in ≤ 2 Wochen, gern ohne Code?
+    validations:
+      required: true

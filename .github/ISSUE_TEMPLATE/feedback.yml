@@ -1,0 +1,26 @@
+name: 🗣️ Feedback
+description: Etwas an der aktuellen Version nervt, fehlt oder ist toll.
+title: "[Feedback] "
+labels: ["feedback", "status: neu"]
+body:
+  - type: textarea
+    id: situation
+    attributes:
+      label: Was ist passiert?
+      placeholder: "Wollte heute Abend schnell eine Zusammenfassung schreiben, aber …"
+    validations:
+      required: true
+  - type: textarea
+    id: erwartung
+    attributes:
+      label: Was hättest du dir gewünscht?
+  - type: dropdown
+    id: schwere
+    attributes:
+      label: Wie sehr hält dich das vom Lesen ab?
+      options:
+        - "Gar nicht, nur Kleinigkeit"
+        - "Etwas, nervt"
+        - "Stark, hab deswegen (fast) nicht gelesen"
+    validations:
+      required: true

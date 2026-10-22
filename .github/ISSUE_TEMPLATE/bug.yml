@@ -1,0 +1,16 @@
+name: 🐛 Bug
+description: Etwas ist kaputt.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist kaputt?
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte zum Reproduzieren
+      placeholder: "1. …\n2. …"
