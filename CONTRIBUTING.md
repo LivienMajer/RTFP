@@ -4,7 +4,7 @@ Wir sind drei Leute, die alle mit Claude arbeiten. Der Workflow ist bewusst lock
 
 ## Wie wir arbeiten
 
-- **Board:** GitHub Project mit drei Spalten: `Ideen` · `Machen wir gerade` · `Fertig`. Wer etwas anfängt, schiebt das Issue rüber und trägt sich ein.
+- **[Board](https://github.com/users/LivienMajer/projects/1):** GitHub Project mit drei Spalten: `Ideen` · `Machen wir gerade` · `Fertig`. Wer etwas anfängt, schiebt das Issue rüber und trägt sich ein.
 - **Bescheid sagen**, woran man arbeitet, damit nicht zwei (oder drei Claudes) dasselbe bauen.
 - **Einmal pro Woche treffen:** Was haben wir gelesen? Was nervt? Worauf haben wir Lust? Wichtige Entscheidungen schreibt einer kurz ins Repo.
 - **Alles andere** läuft im Gruppenchat.
