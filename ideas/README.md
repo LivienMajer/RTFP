@@ -14,7 +14,8 @@ Zusammen ergeben sie einen Kreislauf:
 
 ```
 Entdecken        →  Verstehen  →  Beweisen  →  Behalten
-(001, 007, 008)     (002, 003)    (004, 005)    (006, 010)
+(001, 007, 008,     (002, 003)    (004, 005)    (006, 010)
+ 011)
                                                     │
      ▲──── offene Fragen + Empfehlungs-Graph (009) ─┘
 ```
@@ -31,6 +32,7 @@ Entdecken        →  Verstehen  →  Beweisen  →  Behalten
 | [008](008-paper-suche-und-zugang.md) | Paper-Suche und Volltext-Zugang (z. B. KIT-Account) | B1 Auswahl, Zugang | Entwurf |
 | [009](009-empfehlungen-aus-gelesenem.md) | Empfehlungs-Graph aus Gelesenem und offenen Fragen | B1 Auswahl | Entwurf |
 | [010](010-paper-landkarte.md) | Paper-Landkarte zum Erkunden (Fog of War) | B4 Motivation, B1 Auswahl | Entwurf |
+| [011](011-lernpfade.md) | Lernpfade (Recommended Paths) für den Einstieg in ein Feld | B1 Auswahl, B3 Verständnis | Entwurf |
 
 ## Ideen-Pool (Startpunkt)
 

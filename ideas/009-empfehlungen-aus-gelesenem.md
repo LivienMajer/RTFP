@@ -24,8 +24,11 @@ Allgemeine Empfehlungen kennen meine Neugier nicht. Die besten Hinweise auf das 
 
 **3. Scores und Metadaten**
 - Zitationszahl, „einflussreiche Zitationen“ (Semantic Scholar), Venue, Jahr
-- Als **Hinweis**, nicht als alleiniges Kriterium. Sonst sieht man nur alte Klassiker, und neue Paper haben keine Chance.
 - Optional: Gruppen-Score (wie gut fanden wir es?)
+- **Gewichtung hängt davon ab, wie gut ich ein Feld schon kenne:**
+  - **Neu im Feld:** Klassiker und hoch zitierte Grundlagen-Paper zuerst. Die muss man kennen, um den Rest zu verstehen. Am besten als geführter Lernpfad ([011](011-lernpfade.md)).
+  - **Schon eingelesen:** Zitationen weniger gewichten, damit auch neue Paper (die noch kaum zitiert sein können) und Nischen eine Chance haben.
+  - „Wie gut kenne ich das Feld?“ lässt sich aus den gelesenen Papern pro Themen-Cluster ableiten (siehe Erkundungsgrad in [010](010-paper-landkarte.md)).
 
 ## Hypothese
 
