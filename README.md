@@ -1,8 +1,8 @@
-# RTPF — Read The Paper, Friend 📄
+# RTFP — Read The F***ing Paper 📄
 
 > Jeden Tag ein Paper. Gemeinsam. Und das Wissen bleibt.
 
-RTPF ist ein Projekt von Informatik-Studierenden, die die Gewohnheit aufbauen wollen, **täglich ein wissenschaftliches Paper zu lesen** und das Gelernte in einer **gemeinsamen Wissensbasis** abzulegen.
+RTFP ist ein Projekt von Informatik-Studierenden, die die Gewohnheit aufbauen wollen, **täglich ein wissenschaftliches Paper zu lesen** und das Gelernte in einer **gemeinsamen Wissensbasis** abzulegen.
 
 ## Status
 

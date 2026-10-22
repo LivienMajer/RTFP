@@ -1,4 +1,4 @@
-# Mitmachen bei RTPF
+# Mitmachen bei RTFP
 
 ## Wo kommt was hin?
 
