@@ -13,10 +13,10 @@ Dieser Ordner ist für **ausgearbeitete Vorschläge**, die mehr Platz brauchen: 
 Zusammen ergeben sie einen Kreislauf:
 
 ```
-Entdecken  →  Verstehen  →  Beweisen  →  Behalten
-  (001)       (002, 003)    (004, 005)     (006)
-                                             │
-     ▲───────── bessere Empfehlungen ────────┘
+Entdecken        →  Verstehen  →  Beweisen  →  Behalten
+(001, 007, 008)     (002, 003)    (004, 005)    (006, 010)
+                                                    │
+     ▲──── offene Fragen + Empfehlungs-Graph (009) ─┘
 ```
 
 | # | Idee | Barriere | Status |
@@ -27,6 +27,10 @@ Entdecken  →  Verstehen  →  Beweisen  →  Behalten
 | [004](004-streak-tracking.md) | Streak-Tracking | B4 Motivation | Entwurf |
 | [005](005-lese-quiz.md) | Lese-Check per Quiz | B4 Motivation, B5 Vergessen | Entwurf |
 | [006](006-knowledge-graph-bibliothek.md) | Digitale Bibliothek als Knowledge Graph | B5 Vergessen | Entwurf |
+| [007](007-zotero-integration.md) | Zotero-Integration | B1 Auswahl, B5 Vergessen | Entwurf |
+| [008](008-paper-suche-und-zugang.md) | Paper-Suche und Volltext-Zugang (z. B. KIT-Account) | B1 Auswahl, Zugang | Entwurf |
+| [009](009-empfehlungen-aus-gelesenem.md) | Empfehlungs-Graph aus Gelesenem und offenen Fragen | B1 Auswahl | Entwurf |
+| [010](010-paper-landkarte.md) | Paper-Landkarte zum Erkunden (Fog of War) | B4 Motivation, B1 Auswahl | Entwurf |
 
 ## Ideen-Pool (Startpunkt)
 
