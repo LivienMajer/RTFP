@@ -1,7 +1,7 @@
 name: 💡 Idee
 description: Eine Idee, ein Wunsch, ein Gedanke. 2–3 Sätze reichen.
 title: "[Idee] "
-labels: ["idee", "status: neu"]
+labels: ["idee"]
 body:
   - type: textarea
     id: problem
@@ -32,4 +32,4 @@ body:
         - "Andere / weiß nicht"
   - type: markdown
     attributes:
-      value: "👍 auf dem Issue = „will ich auch“. Priorisiert wird in der Sonntags-Retro."
+      value: "👍 auf dem Issue = „will ich auch“. Was wir machen, entscheiden wir beim Wochentreffen."

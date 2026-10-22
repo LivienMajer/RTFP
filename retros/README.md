@@ -1,9 +1,8 @@
-# Retros
+# Wochentreffen
 
-Jeden **Sonntag, ~30 Minuten**. Eine Datei pro Woche: `YYYY-Www.md` (z. B. `2026-W44.md`), Vorlage: [`_template.md`](_template.md).
+Einmal pro Woche, locker (gern beim Essen):
+- Was haben wir gelesen?
+- Was nervt?
+- Worauf haben wir als Nächstes Lust?
 
-**Ablauf**
-1. Zahlen anschauen (5 min)
-2. Was lief gut / was nervt? (10 min)
-3. Neue Issues und Ideen durchgehen, voten (10 min)
-4. **1–2 Änderungen** für nächste Woche festlegen, nicht mehr (5 min)
+Notizen sind optional. Wenn ihr welche macht: `YYYY-Www.md` (z. B. `2026-W44.md`), Vorlage [`_template.md`](_template.md). Wichtige Entscheidungen auf jeden Fall kurz in [`CLAUDE.md`](../CLAUDE.md) oder [`docs/decisions/`](../docs/decisions/) festhalten.

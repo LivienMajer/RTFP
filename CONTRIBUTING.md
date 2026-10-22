@@ -1,32 +1,40 @@
 # Mitmachen bei RTFP
 
+Wir sind drei Leute, die alle mit Claude arbeiten. Der Workflow ist bewusst locker.
+
+## Wie wir arbeiten
+
+- **Board:** GitHub Project mit drei Spalten: `Ideen` · `Machen wir gerade` · `Fertig`. Wer etwas anfängt, schiebt das Issue rüber und trägt sich ein.
+- **Bescheid sagen**, woran man arbeitet, damit nicht zwei (oder drei Claudes) dasselbe bauen.
+- **Einmal pro Woche treffen:** Was haben wir gelesen? Was nervt? Worauf haben wir Lust? Wichtige Entscheidungen schreibt einer kurz ins Repo.
+- **Alles andere** läuft im Gruppenchat.
+
+## Git
+
+- **Kleinkram** (Doku, Ideen, Notizen) direkt auf `main`
+- **Code-Features** auf einem eigenen Branch (`feat/kurzer-name`) mit PR. Review ist freiwillig. Wer will, schaut drüber (oder lässt Claude drüberschauen), sonst mergt man selbst.
+- **Vor dem Arbeiten `git pull`**, nach dem Arbeiten pushen. Lieber oft und klein als selten und groß.
+
+## Arbeiten mit Claude
+
+- **[`CLAUDE.md`](CLAUDE.md) ist unser gemeinsames Gedächtnis.** Claude liest sie bei jedem von uns automatisch. Konventionen, Stack und wichtige Entscheidungen gehören dorthin und nicht nur in den eigenen Chat oder die eigene Claude-Memory, denn die sehen die anderen nicht.
+- **Ergebnisse aus Claude-Sessions ins Repo:** Wenn Claude etwas herausfindet oder entscheidet, das die anderen wissen sollten, kommt es in eine Datei (Idee, Decision, CLAUDE.md).
+- **Selbst reviewen, bevor man pusht:** Claude schreibt schnell viel Code. Du bist trotzdem verantwortlich für das, was du committest.
+- **Parallel arbeiten:** Drei Claudes erzeugen schnell Merge-Konflikte. Deshalb kleine Branches, oft pullen, und absprechen, wer welche Dateien anfasst.
+- **Projekt-Skills:** In [`.claude/skills/`](.claude/skills/) liegen gemeinsame Abkürzungen, z. B. `/idee`, um eine neue Idee als Datei anzulegen.
+
 ## Wo kommt was hin?
 
-| Was | Wohin | Format |
-|---|---|---|
-| Spontane Idee, Wunsch, Gedanke | GitHub Issue → Template **💡 Idee** | 2–3 Sätze reichen |
-| Ausgearbeiteter Vorschlag | `ideas/NNN-kurzer-name.md` per PR | [`ideas/_template.md`](ideas/_template.md) |
-| Feedback zur aktuellen Version | GitHub Issue → Template **🗣️ Feedback** | Was ist passiert, was hast du erwartet |
-| Annahme, die wir testen wollen | GitHub Issue → Template **🧪 Hypothese**, danach in [`research/hypotheses.md`](research/hypotheses.md) | „Wir glauben, dass …“ |
-| Interview-Notizen | `research/interviews/YYYY-MM-DD-kuerzel.md` | [`research/interviews/_template.md`](research/interviews/_template.md) |
-| Notizen zur Wochen-Retro | `retros/YYYY-Www.md` | [`retros/_template.md`](retros/_template.md) |
-| Getroffene Entscheidung (Stack, Scope, …) | `docs/decisions/NNNN-titel.md` | [`docs/decisions/_template.md`](docs/decisions/_template.md) |
+| Was | Wohin |
+|---|---|
+| Spontane Idee | Issue (Template 💡 Idee) |
+| Ausgearbeitete Idee | `ideas/NNN-name.md` (oder `/idee` in Claude) |
+| Feedback / Bug | Issue (Template 🗣️ Feedback / 🐛 Bug) |
+| Interview-Notizen | `research/interviews/` |
+| Hypothesen | `research/hypotheses.md` |
+| Notizen vom Wochentreffen | `retros/` (optional) |
+| Entscheidung (Stack, Scope, …) | `docs/decisions/` und kurz in `CLAUDE.md` |
 
-## Wie Ideen weiterkommen
+## Und nicht vergessen
 
-```
-Issue (💡 Idee)  →  Diskussion + 👍-Votes  →  Retro: priorisieren  →  Hypothese  →  bauen  →  messen
-```
-
-- **Labels** zeigen den Status: `status: neu` → `status: diskutieren` → `status: geplant` → `status: umgesetzt` / `status: verworfen`
-- **Verworfen ist okay.** Verworfene Ideen bleiben dokumentiert, damit wir sie nicht dreimal diskutieren.
-- Priorisiert wird in der **wöchentlichen Retro** (MoSCoW: Must / Should / Could / Won't).
-
-## Interviews führen
-
-Frag nach **echtem Verhalten**, nicht nach Wünschen. Nicht „Hättest du gern Feature X?“, sondern „Wann hast du zuletzt …? Was ist dann passiert?“. Leitfaden: [`research/interviews/README.md`](research/interviews/README.md).
-
-## Code
-
-- Branch von `main`, kleiner PR, kurze Beschreibung
-- `main` bleibt benutzbar, denn wir benutzen das Ding selbst täglich
+Das eigene Paper lesen. Darum geht's ja eigentlich. 📄

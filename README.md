@@ -15,7 +15,7 @@ RTFP ist ein Projekt von Informatik-Studierenden, die die Gewohnheit aufbauen wo
 | 1 | Interviews: echtes Verhalten verstehen | [`research/interviews/`](research/interviews/) |
 | 2 | Hypothesen formulieren und priorisieren | [`research/hypotheses.md`](research/hypotheses.md) |
 | 3 | Kleinste v0 bauen und selbst benutzen (Dogfooding) | [`src/`](src/) |
-| 4 | Wöchentliche Retro → 1–2 Änderungen pro Woche | [`retros/`](retros/) |
+| 4 | Wöchentliches Treffen: was nervt, was machen wir als Nächstes | [`retros/`](retros/) |
 
 Mehr zur Idee: [`docs/vision.md`](docs/vision.md)
 

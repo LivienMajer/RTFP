@@ -1,7 +1,7 @@
 name: 🧪 Hypothese
 description: Eine Annahme, die wir gezielt testen wollen.
 title: "[Hypothese] "
-labels: ["hypothese", "status: neu"]
+labels: ["hypothese"]
 body:
   - type: textarea
     id: hypothese

@@ -1,7 +1,7 @@
 name: 🗣️ Feedback
 description: Etwas an der aktuellen Version nervt, fehlt oder ist toll.
 title: "[Feedback] "
-labels: ["feedback", "status: neu"]
+labels: ["feedback"]
 body:
   - type: textarea
     id: situation
