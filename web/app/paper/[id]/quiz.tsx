@@ -45,7 +45,7 @@ export function Quiz({ paperId }: { paperId: string }) {
   }
 
   return (
-    <section className="card">
+    <section className="card" id="quiz">
       <h2>Gelesen? Beweis es 😉</h2>
       <p className="muted small">Wer das Quiz besteht, bekommt den Tag für die Streak. Welches Level hast du gelesen?</p>
       <div className="row">

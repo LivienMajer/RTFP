@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { saveNote } from "@/app/actions";
 import { absUrl, getPaper, pdfUrl } from "@/lib/arxiv";
@@ -38,8 +39,11 @@ export default async function PaperPage({ params }: PageProps<"/paper/[id]">) {
         {paper.authors.length > 0 && <p className="muted">{paper.authors.join(", ")}</p>}
         {entry?.why && <p className="why">💡 {entry.why}</p>}
         <div className="row">
-          <a href={pdfUrl(id)} target="_blank" rel="noreferrer" className="button">
-            📄 PDF öffnen
+          <Link href={`/paper/${id}/lesen`} className="button big">
+            📖 Jetzt lesen
+          </Link>
+          <a href={pdfUrl(id)} target="_blank" rel="noreferrer" className="button secondary">
+            PDF auf arXiv
           </a>
         </div>
       </section>

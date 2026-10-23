@@ -356,3 +356,105 @@ blockquote em {
 .libitem h2 a {
   color: var(--text);
 }
+
+/* In-app PDF reader */
+main:has(.reader) {
+  max-width: 1400px;
+}
+
+.reader-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.reader-head strong {
+  flex: 1;
+  min-width: 200px;
+}
+
+.reader-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 16px;
+  align-items: start;
+}
+
+.reader-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+  background: var(--bg);
+}
+
+.reader-toolbar .row {
+  margin: 0;
+}
+
+.reader-toolbar button {
+  padding: 2px 12px;
+}
+
+.pdf-viewer {
+  min-width: 0;
+}
+
+.pdf-page {
+  margin: 0 auto 12px;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+  background: #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.2);
+}
+
+.reader-side {
+  position: sticky;
+  top: 12px;
+  max-height: calc(100vh - 24px);
+  overflow-y: auto;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.explain-pop {
+  position: fixed;
+  z-index: 10;
+  transform: translate(-50%, calc(-100% - 8px));
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.25);
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .reader-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* On phones the explanations sit in a sheet at the bottom of the screen. */
+  .reader-side {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    max-height: 40vh;
+    border-radius: 14px 14px 0 0;
+    z-index: 5;
+  }
+
+  .reader-side:not(:has(.answer)) {
+    display: none;
+  }
+
+  .pdf-viewer {
+    padding-bottom: 40vh;
+  }
+}
