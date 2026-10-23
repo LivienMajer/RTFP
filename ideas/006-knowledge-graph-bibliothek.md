@@ -24,7 +24,7 @@ Alle gelesenen Paper (von mir und der Gruppe) landen in einer **gemeinsamen Bibl
 
 ## Kleinste testbare Version
 
-Ein gemeinsamer Obsidian-Vault, über dieses Repo synchronisiert: eine Markdown-Datei pro Paper, Konzepte als `[[Links]]`. Die Graph-Ansicht ist in Obsidian schon eingebaut.
+Ein gemeinsamer Obsidian-Vault, über dieses Repo synchronisiert: eine Markdown-Datei pro Paper, Konzepte als `[[Links]]`. Die Graph-Ansicht ist in Obsidian schon eingebaut. Ausgearbeitet in [012](012-obsidian-export.md).
 
 ## Offene Fragen
 
