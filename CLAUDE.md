@@ -6,7 +6,12 @@ Gemeinsamer Kontext für Claude. Wir sind drei Leute (Livien, Daniel, Sebastian)
 
 RTFP („Read The F***ing Paper“): Informatik-Studierende bauen die Gewohnheit auf, täglich ein Paper zu lesen und das Wissen in einer gemeinsamen Wissensbasis abzulegen. Vision: [`docs/vision.md`](docs/vision.md).
 
-**Aktuelle Phase:** Anforderungen finden. Ideen liegen in [`ideas/`](ideas/), Hypothesen in [`research/hypotheses.md`](research/hypotheses.md). Noch kein Code, kein Stack festgelegt.
+**Aktuelle Phase:** Anforderungen finden, parallel ein erster Prototyp. Ideen liegen in [`ideas/`](ideas/), Hypothesen in [`research/hypotheses.md`](research/hypotheses.md).
+
+**Code:**
+- [`web/`](web/): Next.js 16 + Claude API. **Vor Next-Code `web/AGENTS.md` lesen**, die Version ist neuer als Claudes Training.
+- [`bot/`](bot/): Discord-Bot, discord.js, Node 24 ohne Build.
+- [`paths/`](paths/): Lernpfade als Markdown. Das Format steht in der Datei, die App parst es.
 
 ## Konventionen
 
@@ -26,3 +31,4 @@ RTFP („Read The F***ing Paper“): Informatik-Studierende bauen die Gewohnheit
 
 <!-- Kurz und mit Datum, Details in docs/decisions/ -->
 - 2026-10-22: Workflow bewusst locker: Board mit 3 Spalten, wöchentliches Treffen, Review freiwillig.
+- 2026-10-23 (vorgeschlagen): Prototyp als Web-App (Next.js) + Discord-Bot, KI über Claude API (Opus 5.5), Daten vorerst als JSON-Datei. Siehe [`0001`](docs/decisions/0001-prototyp-stack.md).

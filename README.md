@@ -6,7 +6,17 @@ RTFP ist ein Projekt von Informatik-Studierenden, die die Gewohnheit aufbauen wo
 
 ## Status
 
-🧪 **Phase 0: Anforderungen finden.** Wir bauen noch nicht viel, sondern finden zuerst heraus, *warum* regelmäßiges Paper-Lesen bisher nicht klappt.
+🧪 **Phase 0: Anforderungen finden.** Wir finden heraus, *warum* regelmäßiges Paper-Lesen bisher nicht klappt. Parallel entsteht ein erster Prototyp zum Selbst-Benutzen.
+
+## Prototyp
+
+| Teil | Was | Doku |
+|---|---|---|
+| [`web/`](web/) | Next.js-App: Paper des Tages, „Einfach erklärt“, Begriffe nachschlagen, Quiz, Streak, Glossar, Bibliothek | [`web/README.md`](web/README.md) |
+| [`bot/`](bot/) | Discord-Bot: Erinnerung zur festen Uhrzeit, Erfolgsmeldungen, `/heute` | [`bot/README.md`](bot/README.md) |
+| [`paths/`](paths/) | Lernpfade als Markdown, die die App abarbeitet | [Beispiel](paths/nlp-einstieg.md) |
+
+Warum so: [`docs/decisions/0001-prototyp-stack.md`](docs/decisions/0001-prototyp-stack.md)
 
 ## Vorgehen
 
@@ -14,7 +24,7 @@ RTFP ist ein Projekt von Informatik-Studierenden, die die Gewohnheit aufbauen wo
 |---|---|---|
 | 1 | Interviews: echtes Verhalten verstehen | [`research/interviews/`](research/interviews/) |
 | 2 | Hypothesen formulieren und priorisieren | [`research/hypotheses.md`](research/hypotheses.md) |
-| 3 | Kleinste v0 bauen und selbst benutzen (Dogfooding) | [`src/`](src/) |
+| 3 | Kleinste v0 bauen und selbst benutzen (Dogfooding) | [`web/`](web/), [`bot/`](bot/) |
 | 4 | Wöchentliches Treffen: was nervt, was machen wir als Nächstes | [`retros/`](retros/) |
 
 Mehr zur Idee: [`docs/vision.md`](docs/vision.md)
